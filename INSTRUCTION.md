@@ -29,7 +29,7 @@ Follow these steps to ensure the Kubernetes resources and application are config
    Make sure the Secret has been applied successfully:
 
    ```bash
-   kubectl get secret django-secret -o yaml
+   kubectl get secret app-secrets -o yaml
    ```
    Check that the `SECRET_KEY` exists in the output (it will be base64 encoded).
 
